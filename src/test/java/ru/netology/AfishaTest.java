@@ -18,7 +18,7 @@ class AfishaTest {
 
 
     @Test
-    public void shouldAddFilm() {
+    public void addFilm() {
         Afisha manager = new Afisha(10);
         Movie first = new Movie(1,1,"first",1,1);
         Movie second = new Movie(2,2,"second", 2,2);
